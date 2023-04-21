@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Semlan.DataSqlite.Migrations
+namespace Semlan.DbMigrationSqlite.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

@@ -13,7 +13,7 @@ public class Program
         builder.Services.AddControllersWithViews();
         builder.Services.AddDbContext<SemlanDbContext>(options =>
         {
-            options.UseSqlite(builder.Configuration.GetConnectionString("SemlanDb"));
+            options.UseSqlite(builder.Configuration.GetConnectionString("SemlanDb"), b => b.MigrationsAssembly("Semlan.DbMigrationSqlite"));
         });
 
         var app = builder.Build();

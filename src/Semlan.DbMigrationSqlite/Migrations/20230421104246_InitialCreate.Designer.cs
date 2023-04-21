@@ -8,10 +8,10 @@ using Semlan.DataSqlite;
 
 #nullable disable
 
-namespace Semlan.DataSqlite.Migrations
+namespace Semlan.DbMigrationSqlite.Migrations
 {
     [DbContext(typeof(SemlanDbContext))]
-    [Migration("20230421060347_InitialCreate")]
+    [Migration("20230421104246_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

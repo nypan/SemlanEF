@@ -7,7 +7,7 @@ using Semlan.DataSqlite;
 
 #nullable disable
 
-namespace Semlan.DataSqlite.Migrations
+namespace Semlan.DbMigrationSqlite.Migrations
 {
     [DbContext(typeof(SemlanDbContext))]
     partial class SemlanDbContextModelSnapshot : ModelSnapshot

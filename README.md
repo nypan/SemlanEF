@@ -25,16 +25,15 @@ dotnet tool install --global dotnet-ef
 ### Skapa en första migrering
 ```
 # windows
- dotnet ef migrations add InitialCreate --startup-project .\src\Semlan.DbMigrationSqlite\  --project .\src\Semlan.DataSqlite\
-# macos
-dotnet ef migrations add InitialCreate --startup-project ./src/Semlan.DbMigrationSqlite/  --project ./src/Semlan.DataSqlite/
+ dotnet ef migrations add InitialCreate --startup-project .\src\Semlan.DbMigrationSqlite\  
+dotnet ef migrations add InitialCreate --startup-project ./src/Semlan.DbMigrationSqlite/  
 ```
 
 ### Skapa database
 
 ```
 # windows
- dotnet ef database update --startup-project .\src\Semlan.DbMigrationSqlite\  --project .\src\Semlan.DataSqlite\
+ dotnet ef database update --startup-project .\src\Semlan.DbMigrationSqlite\ 
 # macos
  dotnet ef database update --startup-project ./src/Semlan.DbMigrationSqlite/  --project ./src/Semlan.DataSqlite/
 
