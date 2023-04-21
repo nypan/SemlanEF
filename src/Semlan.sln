@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semlan.DbMigrationSqlite", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semlan.DataSqlite", "Semlan.DataSqlite\Semlan.DataSqlite.csproj", "{2EA4F5D6-4F68-4710-8424-19FB1564867E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semlan.SampleApp", "Semlan.SampleApp\Semlan.SampleApp.csproj", "{9C40249B-2A71-47FC-9C71-91B9E9EEB662}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{2EA4F5D6-4F68-4710-8424-19FB1564867E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EA4F5D6-4F68-4710-8424-19FB1564867E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EA4F5D6-4F68-4710-8424-19FB1564867E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C40249B-2A71-47FC-9C71-91B9E9EEB662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C40249B-2A71-47FC-9C71-91B9E9EEB662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C40249B-2A71-47FC-9C71-91B9E9EEB662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C40249B-2A71-47FC-9C71-91B9E9EEB662}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
