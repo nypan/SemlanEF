@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Semlan.Domain.Models;
 
-namespace Semlan.Data
+namespace Semlan.DataSqlite
 {
     public class SemlanDbContext : DbContext
     {

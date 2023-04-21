@@ -1,5 +1,5 @@
 ﻿
-namespace Semlan.Data.Models
+namespace Semlan.Domain.Models
 {
     public class User
     {
